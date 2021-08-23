@@ -3,7 +3,7 @@
  * @since 23/08/2021
  */
 data class Person(
-    var name: String? = null,
-    var age: Int? = null,
-    var address: Address? = null
+    val name: String,
+    val age: Int,
+    val address: Address
 )
